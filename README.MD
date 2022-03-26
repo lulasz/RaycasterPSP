@@ -1,4 +1,4 @@
-# Raycaster
+# Raycaster on PSP
 
 ## Introduction
 Raycaster example made based on Lode Vandevenne examples. This is a Visual Studio Code project using MINPSP Windows SDK.
