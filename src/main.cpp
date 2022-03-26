@@ -335,6 +335,10 @@ int main()
 				int texY = (int)texPos & (textureSize - 1);
 				texPos += step;
 				g2dColor color = (g2dColor)texture[texNum]->data[textureSize * texX + texY];
+				
+				// Give x and y sides different brightness
+				if (side == 1)
+					color = G2D_RGBA(G2D_GET_R(color) / 2, G2D_GET_G(color) / 2, G2D_GET_B(color) / 2, 255);
 				tex->data[tex->tw * y + x] = (g2dColor)color;
 			}
 
