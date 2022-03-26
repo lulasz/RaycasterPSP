@@ -4,6 +4,9 @@
 Raycaster example made based on Lode Vandevenne examples. This is a Visual Studio Code project using MINPSP Windows SDK.
 It uses the [gLib2D by Geecko](https://github.com/libcg/gLib2D) modified by me for CPP and changed some other things.
 
+## Screenshots
+![](.docs/screenshot.jpg)
+
 ## Project structure
 ```
 .src/ # your main project source
