@@ -6,11 +6,9 @@
 #include "pspdebug.h"
 #include "pspdisplay.h"
 #include "pspctrl.h"
-#include "./common/callback.hpp"
-#include "./common/helpers.hpp"
-#include "./lib/glib2d.hpp"
-
-using namespace std;
+#include "common/callbacks.hpp"
+#include "common/helpers.hpp"
+#include "lib/glib2d.hpp"
 
 #define screenWidth 480
 #define screenHeight 272
