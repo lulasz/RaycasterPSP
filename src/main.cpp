@@ -6,9 +6,9 @@
 #include "pspdebug.h"
 #include "pspdisplay.h"
 #include "pspctrl.h"
-#include "./lib/glib2d.h"
-#include "./common/callback.h"
-#include "./common/helpers.h"
+#include "./common/callback.hpp"
+#include "./common/helpers.hpp"
+#include "./lib/glib2d.hpp"
 
 using namespace std;
 
@@ -335,7 +335,7 @@ int main()
 				int texY = (int)texPos & (textureSize - 1);
 				texPos += step;
 				g2dColor color = (g2dColor)texture[texNum]->data[textureSize * texX + texY];
-				
+
 				// Give x and y sides different brightness
 				if (side == 1)
 					color = G2D_RGBA(G2D_GET_R(color) / 2, G2D_GET_G(color) / 2, G2D_GET_B(color) / 2, 255);

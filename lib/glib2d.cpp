@@ -17,7 +17,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "glib2d.h"
+#include "glib2d.hpp"
 
 #include <stdbool.h>
 #include <pspkernel.h>
