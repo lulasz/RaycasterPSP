@@ -1,5 +1,5 @@
 TARGET = raycaster
-OBJS = ./src/main.o ./src/common/callback.o ./src/common/helpers.o ./lib/glib2d.o 
+OBJS = ./src/main.o ./src/common/callbacks.o ./src/common/helpers.o ./lib/glib2d.o 
 
 INCDIR =
 CFLAGS = -O2 -G0 -Wall -g
